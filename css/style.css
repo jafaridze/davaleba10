@@ -1,0 +1,176 @@
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+.logo{
+	width: 196px;
+}
+.flex{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.container-bg{
+	margin-top: 25px;
+}
+.navigation-ul{
+	display: flex;
+}
+.navigation-li{
+	padding: 0 15px;
+	font-size: 24px;
+	text-transform: uppercase;
+}
+.navigation-li:last-child .active1{
+	color: #B9BCC1;
+}
+
+.blue-a{
+	color: #3D58A6;
+	font-family: 'RobotoRegular';
+}
+
+.parent-li{
+	padding-left: 15px;
+	
+
+}
+.parent-li:last-child{
+	padding-right: 0;
+}
+
+.icon { 
+	color: #3D58A6;
+	font-size: 22px;
+}
+.parent-li:last-child .active2{
+	color: red;
+}
+
+.parent-li::after{
+	content: "";
+	width: 1px;
+	height: 20px;
+	background-color: #3D58A6;
+	margin-left: 15px;
+	
+}
+.parent-li:last-child::after{
+	display: none;
+}
+
+/*contact section*/
+.red-bg{
+	background-color: #EE4036;
+	padding: 30px 0;
+	margin-top: 18px;
+}
+.contact{
+	font-size: 22px;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: 'RobotoRegular';
+}
+/*contact section*/
+
+/*map section*/
+.container iframe{
+	width: 100%;
+}
+.map-bg{
+	background-color: #E6E6E6;
+	padding: 30px 0;
+}
+/*map section*/
+
+/*contact form*/
+.container-boxs{
+	background-color: #363E97;
+	padding: 40px 0;
+	padding-left: 100px;
+	
+}
+.row{
+	padding-bottom: 25px;
+}
+.row h3{
+	font-size: 20px;
+	font-family: 'RobotoRegular';
+}
+.left-box{
+	color: #fff;
+	font-size: 20px;
+	padding-right: 100px;
+}
+.right-box{
+	padding-right: 140px;
+
+}
+
+.form-group{
+	display: flex;
+	flex-direction: column;
+}
+.forms{
+	display: flex;
+	flex-direction: column;
+}
+.form-wraper{
+	display: flex;
+}
+.adress:last-child{
+	margin-top: 0;
+}
+.input{
+	width: 629px;
+	background: transparent;
+	border:1px solid #fff;
+	padding: 20px 30px; 
+	padding-bottom: 20px;
+}
+.name{
+	color: #fff;
+	font-size: 20px;
+	padding-bottom: 10px;
+}
+
+
+.text-input{
+	padding: 40px 30px;
+}
+.send{
+	background-color: #EE4036;
+	color: #fff;
+	padding: 10px 50px;
+	width: 130px;
+	margin-top: 20px;
+}
+/*contact form*/
+/*icon section*/
+.icon-box{
+	background-color: #E6E6E6;
+	padding: 30px 0;
+}
+.icon-img img{
+	width: 200px;
+}
+.icon-img{
+	display: flex;
+	justify-content: flex-end;
+}
+/*icon section*/
+/*footer*/
+.footer{
+	padding: 30px 0;
+}
+.text-h4{
+	font-size: 12px;
+}
+
+/*footer*/
+
+
+
+
+
+
